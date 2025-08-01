@@ -1,0 +1,1 @@
+{ "builds": [ { "src": "FlaskApiDeploy/views.py", "use": "@vercel/python" } ], "routes": [ { "src": "/(.*)", "dest": "FlaskApiDeploy/views.py" } ] }
